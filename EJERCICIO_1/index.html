@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="cajas">
+        <h3 class="titulo">ESTUDIANTES</h3>
+        <div>
+
+            <label for="id">Nombre</label><br>
+            <input type="text" id="idtxt_nombre" value="Mariangel">
+            <br><label for="id">Apellidos</label><br>
+            <input type="text" id="idtxt_apellido" value="Ledezma">
+            <br><label for="id">Asignatura</label><br>
+            <input type="text" id="txt_Asignatura">
+        </div>
+        <div>
+            <p> <label for="id">Nota Max</label>
+                <input type="text" id="txt_max" size="2">
+                <br><label for="id">Nota min</label>
+                <input type="text" id="txt_min" size="2"><br>
+
+                <br><label for="id">Porcentaje</label><br>
+                %nota 1:
+                <input type="text" id="txt_pnota1" size="2"><br>
+                %nota 2:
+                <input type="text" id="txt_pnota2" size="2"><br>
+                %nota 3:
+                <input type="text" id="txt_pnota3" size="2">
+
+            <p><label for="id">Notas</label><br>
+                Nota 1:
+                <input type="text" id="txt_nota1" class="nt1" size="2"> <br>
+                Nota 2:
+                <input type="text" id="txt_nota2" size="2"><br>
+                Nota 3:
+                <input type="text" id="txt_nota3" size="2">
+        </div>
+        <!--funcion por referencia-->
+        <input type="submit" id="btn2" onclick="notas(), suma()" value="enviar">
+        <input type="submit" id="btn3" onclick="notas(), suma()" value="Calcular">
+
+        <!--argumentos-->
+        <input type="submit" id="btn4" onclick="llamame(document.getElementById('idtxt_nombre').value, 
+               document.getElementById('idtxt_apellido').value,
+                document.getElementById('txt_Asignatura').value)" value="llamame">
+
+        <input type="submit" id="btn5" onclick="division(document.getElementById('txt_nota1').value, 
+                document.getElementById('txt_nota2').value,
+                document.getElementById('txt_nota3').value)" value="División">
+    </section>
+    
+
+
+    <div class="cajas">
+        <p>Suma Notas</p>
+        <input class="p1" type="text" id="resul_txt_sumanotas">
+        <p>Definitiva</p>
+        <input class="p2" type="text" id="resul_txt_definitiva" size="2">
+        <p>Parrafo asignatura</p>
+        <input class="p3" type="text" id="txt_parrafo1">
+        <p>Nombre y Apellido</p>
+        <p id="txt_nya"></p>
+    </div>
+
+    <script src="/JS/gregorios.js"></script>
+</body>
+
+</html>

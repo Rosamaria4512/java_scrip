@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="cajas">
+        <h3 class="titulo">ADSI TARDE</h3>
+        <div>
+
+            <label for="id">Identificacion</label><br>
+            <input type="text" id="txt_identificacionid" value="">
+            <br><label for="id">Nombre</label><br>
+            <input type="text" id="txt_nombreid" value="">
+            <br><label for="id">Numero de cupos</label><br>
+            <input type="text" id="txt_numerocuposid"><p>
+           <p id="cupos_p">los cupos son:</p>     
+           <p id="suma_p">la suma es:</p>   
+           <P id="par">ddd</P>  
+            <input type="submit" id="btn1" onclick="cupos(document.getElementById('txt_numerocuposid').value,)" value="enviar">
+            <input type="submit" id="btn2" onclick="v_2(document.getElementById('par').value)" value="Par e Impar">
+        </div>
+        <div>
+
+
+    <script src="/JS/adsitarde.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="cajas">
+        <h3 class="titulo">NOMBRES Y APELLIDOS</h3>
+        <div>
+
+            <label for="id">NOMBRE</label><br>
+            <input type="text" id="txt_nom1" value=""><br>
+            <label for="id">SEGUNDO NOMBRE</label><br>
+            <input type="text" id="txt_nom2" value=""><br>
+            <label for="id">PRIMER APELLIDO</label><br>
+            <input type="text" id="txt_nom3" value=""><br>
+            <label for="id">SEGUNDO APELLIDO</label><br>
+            <input type="text" id="txt_nom4" value=""><br>
+
+            <label for="id">cadena</label><br>
+            <input type="text" id="txt_cadena" value="">
+
+
+        
+        </div> <br>
+    
+        <button id="btn3" onclick="nombres(document.getElementById('txt_nom1').value, document.getElementById('txt_nom2').value, document.getElementById('txt_nom3').value, document.getElementById('txt_nom4').value)">PRESIONE</button>
+        <button id="btn3" onclick="invertirCadena(document.getElementById('txt_nom1').value, document.getElementById('txt_nom2').value, document.getElementById('txt_nom3').value, document.getElementById('txt_nom4').value)">PRESIONE</button>
+        <!-- <button id="btn3" onclick="invertirCadena(document.getElementById('txt_cadena').value)">PRESIONE</button> -->
+        <p id="resul"></p>
+        <p id="resul2"></p>
+        <p id="resul3"></p>
+        <p id="resul4"></p>
+        <p id="resul5"></p>
+        <p id="resul6"></p>
+
+      
+        
+    
+
+
+       
+
+
+        
+    </section>
+    
+
+
+   
+    <script src="/JS/dias.js"></script>
+</body>
+
+</html>

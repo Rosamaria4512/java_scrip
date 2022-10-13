@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="cajas">
+        <h3 class="titulo">DIAS</h3>
+        <div>
+
+            <label for="id">INGRESE NUMERO DE DIA</label><br>
+            <input type="text" id="txt_numdia" value=""><br>
+            <label for="id">INGRESE NUMERO </label><br>
+            <input type="text" id="txt_arbol" value="">
+           
+        </div>
+    
+        <br><input type="button" id="btn2" onclick="misdias(document.getElementById('txt_numdia').value)"value="RESULTADO DIA">
+        <input type="button" id="btn2" onclick="arbolA(document.getElementById('txt_arbol').value)"value="ASTERISCOS">
+
+        <p id="pdialetras">ES DIA:</p>
+        <p id="resul">ASTERISCOS:</p>
+        
+    </section>
+    
+
+
+   
+    <script src="/JS/dias.js"></script>
+</body>
+
+</html>

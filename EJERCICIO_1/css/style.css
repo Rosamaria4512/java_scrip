@@ -1,0 +1,33 @@
+.titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cajas{
+  border: 1px solid black;
+  width: 25%;
+  margin-top: 5px;
+  float:left;
+  margin-left: 10px;
+  padding: 10px;
+}
+.p1{
+    background-color: aquamarine;
+}
+.p2{
+    background-color: aquamarine;
+}
+.p3{
+    background-color: aquamarine;
+}
+
+#btn2{
+    background-color: pink;
+}
+#btn3{
+    background-color: rgb(232, 26, 204);
+}
+#btn4{
+    background-color: rgb(240, 67, 96);
+}
+#btn5{
+    background-color: rgb(33, 210, 116);
+}
